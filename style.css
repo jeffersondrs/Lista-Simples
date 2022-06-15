@@ -27,9 +27,13 @@ body{
     flex-direction: column;
 }
 h1{
-   color: rgb(179, 131, 336); 
+   color: rgb(162, 0, 255); 
    font-size: 7rem;
-   opacity: 0.5;
+   opacity: 1;
+   background-color: yellow;
+   width: 100%;
+   text-align: center;
+   display: block;
 }
 
 form{
@@ -40,11 +44,16 @@ form{
 
 .input{
     border: none;
-    color: #444;
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     padding: 1rem 2rem;
     display: block;
     width: 100%;
+    border-radius: 2px;
+    background-color: blueviolet;
+}
+.input:focus{
+    outline-color: rgb(179, 131, 336);
 }
 
 .input::placeholder{
@@ -63,4 +72,15 @@ form{
     cursor: pointer;
     font-size: 1.5rem;
     padding: 1rem 2rem;
+}
+
+.lista li.completed{
+    color: #b6b6b6;
+    text-decoration: line-through;
+}
+
+small{
+    color: #b5b5b5;
+    margin-top: 3rem;
+    text-align: center;
 }
