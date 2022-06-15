@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #ffff;
+    font-family: Signika, sans-serif;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+   color: rgb(179, 131, 336); 
+   font-size: 7rem;
+   opacity: 0.5;
+}
+
+form{
+    box-shadow: o 4px 10px rgba(0,0,0,0.1);
+    max-width: 100%;
+    width: 400px;
+}
+
+.input{
+    border: none;
+    color: #444;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+
+.input::placeholder{
+    color: #d5d5d5;
+}
+
+.lista{
+    background-color: rgb(67, 77, 214);
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.lista li{
+    border-top: 1px solid #ffffff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
