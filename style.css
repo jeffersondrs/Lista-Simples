@@ -10,7 +10,7 @@
 body{
     color: #ffff;
     font-family: Signika, sans-serif;
-    background-color: rgb(67, 133, 129);
+    background-color: rgb(19, 121, 114);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ form{
     display: block;
     width: 100%;
     border-radius: 2px;
-    background-color: rgb(72, 0, 139);
+    background-color: rgb(70, 0, 136);
 }
 .input:focus{
     outline-color: rgb(179, 131, 336);
@@ -61,7 +61,7 @@ form{
 }
 
 .lista{
-    background-color: rgb(67, 77, 214);
+    background-color: rgb(52, 48, 236);
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -83,4 +83,5 @@ small{
     color: #ffffff;
     margin-top: 3rem;
     text-align: center;
+    font-size: 2rem;
 }

@@ -31,5 +31,5 @@ function addLista(lista) {
         listaUl.appendChild(listaEL);
         input.value = '';
 
-    console.log(listaText);
+        
 }}
