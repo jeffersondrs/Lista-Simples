@@ -10,7 +10,7 @@
 body{
     color: #ffff;
     font-family: Signika, sans-serif;
-    background-color: darkblue;
+    background-color: rgb(67, 133, 129);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body{
     height: 100vh;
 }
 
-.container{
+.body{
     width: 100%;
     height: 20vh;
     display: flex;
@@ -27,19 +27,19 @@ body{
     flex-direction: column;
 }
 h1{
-   color: rgb(162, 0, 255); 
-   font-size: 7rem;
-   opacity: 1;
-   background-color: yellow;
+   color: rgb(196, 196, 196); 
+   font-size: 5rem;
+   opacity: 0.9;
    width: 100%;
    text-align: center;
    display: block;
+   text-transform: uppercase;
 }
 
 form{
     box-shadow: o 4px 10px rgba(0,0,0,0.1);
     max-width: 100%;
-    width: 400px;
+    width: 650px;
 }
 
 .input{
@@ -50,7 +50,7 @@ form{
     display: block;
     width: 100%;
     border-radius: 2px;
-    background-color: blueviolet;
+    background-color: rgb(72, 0, 139);
 }
 .input:focus{
     outline-color: rgb(179, 131, 336);
@@ -80,7 +80,7 @@ form{
 }
 
 small{
-    color: #b5b5b5;
+    color: #ffffff;
     margin-top: 3rem;
     text-align: center;
 }
